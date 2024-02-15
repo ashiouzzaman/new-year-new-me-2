@@ -7,8 +7,9 @@
 header {
     text-align: right;
     background-image: url(images/banner/banner3.png);
+    background-repeat: no-repeat;
     height: 808px;
-    margin: auto;
+    /* margin: auto; */
     padding: 0 230px;
 }
 
@@ -20,6 +21,20 @@ header {
     font-size: 20px;
     font-weight: 600;
     padding: 20px 24px;
+}
+
+.section-title {
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.section-description {
+    color:#444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
 }
 
 /* Header */
@@ -38,4 +53,28 @@ header {
     line-height: 26px;
     /* 162.5% */
     margin-bottom: 32px;
+}
+
+/* Failure section */
+.my-failure {
+    display: flex;
+    align-items: center;
+    padding: 140px 230px;
+}
+
+.my-failure ul li{
+    list-style: none;
+    margin-bottom: 8px !important;
+}
+.my-failure ul li:before {
+    content: '✓ ';
+    color: #16D887;
+  }
+
+.failure-text-container .section-title{
+    margin-bottom: 24px;
+}
+.failure-text-container .section-description{
+    width: 416px;
+    margin-bottom: 16px;
 }
