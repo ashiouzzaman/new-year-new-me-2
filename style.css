@@ -7,7 +7,6 @@
 header {
     text-align: right;
     background-image: url(images/banner/banner3.png);
-    background-repeat: no-repeat;
     height: 808px;
     /* margin: auto; */
     padding: 0 230px;
@@ -30,7 +29,7 @@ header {
 }
 
 .section-description {
-    color:#444343;
+    color: #444343;
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
@@ -60,21 +59,57 @@ header {
     display: flex;
     align-items: center;
     padding: 140px 230px;
+    gap: 104px;
 }
 
-.my-failure ul li{
+.my-failure-container {
+    margin: 0 auto;
+}
+
+.my-failure ul li {
     list-style: none;
     margin-bottom: 8px !important;
 }
+
 .my-failure ul li:before {
     content: '✓ ';
     color: #16D887;
-  }
+}
 
-.failure-text-container .section-title{
+.failure-text-container .section-title {
     margin-bottom: 24px;
 }
-.failure-text-container .section-description{
+
+.failure-text-container .section-description {
     width: 416px;
     margin-bottom: 16px;
+}
+
+
+/* My Plans */
+.my-plans-container {
+    text-align: center;
+    padding: 0 230px 140px 230px;
+}
+
+.my-plans {
+    display: flex;
+    gap: 100px;
+    margin-top: 48px;
+}
+
+.plans-title {
+    color: #151414;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 24px;
+    max-block-size: 16ppx;
+}
+
+.plans-description {
+    color:#737272;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
 }
